@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "neural_renderer"
+version = "0.1.0"
+description = ""
+authors = ["nekanat <nekanat.stock@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.7.1"
+tqdm = "^4.58.0"
+imageio = "^2.9.0"
+scikit-image = "^0.18.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools", "torch"]
+build-backend = "poetry.core.masonry.api"
